@@ -107,6 +107,11 @@ body {
   box-shadow: 0 5px 8px 0 #2021241a;
   transition: border 0.2s;
 }
+.search-bar:hover{
+  border: 2px solid #dee0e3;
+  box-shadow: 0 5px 8px 0 #2021241a;
+  
+}
 
 .search-bar:focus {
   background: #fff;
@@ -177,23 +182,6 @@ footer {
   display: flex;
   gap: 24px;
   ;
-}
-
-@media (max-width: 600px) {
-  .google-container img {
-    width: 180px;
-    height: auto;
-  }
-  .search-form, .search-bar {
-    max-width: 95vw;
-  }
-  .footer-links {
-    flex-direction: column;
-    gap: 12px;
-  }
-  .footer-left, .footer-right {
-    gap: 12px;
-  }
 }
 
 .search-icon{
