@@ -14,14 +14,15 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #fff
+    background-color: #fff;
+    
     
 }
 .navbar-links-left{
     display: flex;
     align-items: center;
     gap: 20px;
-    font-size: small;
+    font-size: 14px;
     border: none;
 }
 
@@ -29,7 +30,7 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
-    font-size: small;
+    font-size: 14px;
 }
 .navbar a{
     text-decoration: none;
@@ -247,7 +248,7 @@ position: relative;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    font-size: 12px;   
+    font-size: 13px;   
     gap: 6px;
 
     
@@ -305,4 +306,7 @@ box-shadow: 0 1px 6px 1px rgba(48, 52, 54, 0.3);
 
   transition: box-shadow 0.2s, background 0.2s;
     text-decoration: none;
+}
+.buttons input{
+    font-size: 14px;
 }
