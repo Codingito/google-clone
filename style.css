@@ -216,31 +216,30 @@ footer {
 }
 .mic-icon{
 position: relative;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 25px;
   right: 70px;
-  margin-top: 15px;
+  margin-top: 11px;
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 .lens-icon{
   position: relative;
-  width: 35px;
+  width: 32px;
   height: 30px;
   right: 56px;
-  margin-top: 10px;
+  margin-top: 7px;
+
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
  
 }
-.mic-icon {
-  background-image: url(./utils/image.png);
-}
+
 
 .lens-icon {
-  background-image: url('./utils/7123028_lens_google_icon.png');
+
 }
 .googly{
     display: flex;
